@@ -20,8 +20,15 @@
 	opacity : 0.5;
 }
 
-.navbar .transparent .navbar-fixed-top {
-	background : none;
+.navbar {
+	opacity : 0.1;
+	background-color : #bdc3c7;
+}
+
+.scrolled {
+  opacity : 0.9;
+  background-color : #bdc3c7;
+  transition : background-color 200ms linear;
 }
 
 .navbar .navbar-brand {
@@ -51,7 +58,8 @@
 	width : 100%;
 	font-family : 'Abril Fatface', sans-serif;
 	color : white;
-	font-size : 10vw;
+	opacity : 0.9;
+	font-size : 12vw;
 	padding : 0%;
 	margin : 0%;
 }
@@ -59,6 +67,22 @@
 #welcome   {
 	padding : 0%;
 	margin : 0%;
+}
+
+.icons {
+	width : 50%;
+}
+
+.nouns {
+	float : left;
+	width : 33.33%;
+	padding : 2%;
+	height : 20%;
+	text-align : center;
+}
+
+#icons1 {
+	padding-top : 10%;
 }
 
 body h1 {
