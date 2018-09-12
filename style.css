@@ -1,0 +1,194 @@
+/*body, html {
+	height : 100%;
+	margin : 0% 0% 0% 0%;
+	border : none;
+}*/
+
+#pic {
+	padding : 0% 0% 0% 0%; 
+	border : none;
+}
+
+#phillyPic {
+	width : 100%;
+	height : 100%;
+	background-position : center;
+	background-repeat : no-repeat;
+	background-size : cover;
+	-webkit-filter : grayscale(50%);
+	filter : grayscale(25%);
+	opacity : 0.5;
+}
+
+.navbar {
+	background-color : rgba(171, 183, 183, 0.25);
+}
+
+.scrolled {
+  opacity : 0.9;
+  background-color : #bdc3c7;
+  transition : background-color 200ms linear;
+}
+
+.navbar .navbar-brand {
+	font-family : 'Questrial', sans-serif;
+	color : black;
+	text-shadow : none;
+}
+
+.navbar .dropdown {
+	font-family : 'Questrial', sans-serif;
+	color : black;
+	text-shadow : none;
+}
+
+.navbar-bottom {
+	margin-bottom : 0%;
+}
+
+
+.navbar-bottom { 
+	background-image : none;
+	background-color : #fff9de;
+	width : 100%;
+	margin-bottom : 0%;
+}
+
+.bottomLink {
+	font-family : 'Questrial', sans-serif;
+	color : black;
+	text-shadow : none;
+}
+
+.navbar-bottom .navbar-brand {
+	font-family : 'Abril Fatface', sans-serif;
+	text-shadow : none;
+}
+
+.dropdown-toggle {
+	font-family : 'Questrial', sans-serif;
+	color : black;
+}
+
+#pic .thumbnail {
+	position : relative;
+	margin-bottom: 0px;
+	padding : 0px;
+	border : none;
+}
+
+.thumbnail .text-center{
+	margin : 0% 0% 0% 0%;
+	padding : 0% 0% 0% 0%;
+}
+
+.caption p {
+	position : absolute;
+	top : 40%;
+	left : 0;
+	width : 100%;
+	font-family : 'Abril Fatface', sans-serif;
+	color : white;
+	opacity : 0.9;
+	font-size : 12vw;
+	padding : 0%;
+	margin : 0%;
+	letter-spacing: .04em;
+}
+
+p {
+	font-family : 'Questrial', sans-serif;
+	padding-top : 10%;
+}
+
+#welcome   {
+	padding : 0%;
+	margin : 0%;
+}
+
+.icons {
+	width : 50%;
+}
+
+.nouns {
+	float : left;
+	width : 33.33%;
+	padding : 2%;
+	height : 20%;
+	text-align : center;
+	position : relative;
+	margin : 0 auto;
+}
+
+#icons1 {
+	padding-top : 10%;
+}
+
+.overlay {
+	position : absolute;
+	top : 0;
+	bottom : 0;
+	right : 0;
+	left : 0;
+	height : 100%;
+	width : 100%;
+	opacity : 0;
+	transition : 0.5s ease;
+	background-color: #fabe58;
+}
+
+.nouns:hover .overlay {
+	opacity : 0.85;
+}
+
+.nouns:hover .icons{
+	opacity : 0.25;
+}
+
+.text {
+	color : white;
+	position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translate(-50%, -50%);
+  float : left;
+ 	font-family : 'Questrial', sans-serif;
+ 	font-size : 20px;
+ 	line-height : 100%;
+}
+
+.text .sub-text {
+	color : #6c7a89;
+	font-size : 15px;
+	line-height : 100%;
+}
+
+body h1 {
+	font-family : 'Abril Fatface', sans-serif;
+	transform: translate(-50%, -50%);
+	float : left;
+	position : absolute;
+	margin-top: 5%;
+	margin-left : 10%;
+	margin bottom : 10%;
+	letter-spacing : 0.04em;
+}
+
+#about {
+	font-family : 'Questrial', sans-serif;
+}
+
+.tr {
+	background-color : rgba(171, 183, 183, 0.5);
+	width : 100%;
+	margin : 0%;
+	padding : 0%;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+.places {
+	padding-left : 10%;
+}
