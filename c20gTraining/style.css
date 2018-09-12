@@ -1,0 +1,96 @@
+/*body, html {
+	height : 100%;
+	margin : 0% 0% 0% 0%;
+	border : none;
+}*/
+
+#pic {
+	padding : 0% 0% 0% 0%; 
+	border : none;
+}
+
+#phillyPic {
+	width : 100%;
+	height : 100%;
+	background-position : center;
+	background-repeat : no-repeat;
+	background-size : cover;
+	-webkit-filter : grayscale(50%);
+	filter : grayscale(25%);
+	opacity : 0.5;
+}
+
+.navbar {
+	opacity : 0.1;
+	background-color : #bdc3c7;
+}
+
+.scrolled {
+  opacity : 0.9;
+  background-color : #bdc3c7;
+  transition : background-color 200ms linear;
+}
+
+.navbar .navbar-brand {
+	font-family : 'Questrial', sans-serif;
+}
+
+.navbar .dropdown {
+	font-family : 'Questrial', sans-serif;
+}
+
+#pic .thumbnail {
+	position : relative;
+	margin-bottom: 0px;
+	padding : 0px;
+	border : none;
+}
+
+.thumbnail .text-center{
+	margin : 0% 0% 0% 0%;
+	padding : 0% 0% 0% 0%;
+}
+
+.caption p {
+	position : absolute;
+	top : 45%;
+	left : 0;
+	width : 100%;
+	font-family : 'Abril Fatface', sans-serif;
+	color : white;
+	opacity : 0.9;
+	font-size : 12vw;
+	padding : 0%;
+	margin : 0%;
+}
+
+#welcome   {
+	padding : 0%;
+	margin : 0%;
+}
+
+.icons {
+	width : 50%;
+}
+
+.nouns {
+	float : left;
+	width : 33.33%;
+	padding : 2%;
+	height : 20%;
+	text-align : center;
+}
+
+#icons1 {
+	padding-top : 10%;
+}
+
+body h1 {
+	margin-left : 5%;
+	font-family : 'Quattrocento', serif;
+}
+
+#about {
+	font-family : 'Questrial', sans-serif;
+}
+
