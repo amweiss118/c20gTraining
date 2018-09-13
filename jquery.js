@@ -8,12 +8,13 @@ $(document).ready(function() {
 	  });
 	});
 
-	var el = $('.icons');
+	var el = $('#add');
    
     el.click(function(e) {
 
  			e.preventDefault();
-
+			var $suggestion = $("#suggestion").val(); 
+ 			$("#pl").append('<li>' + $suggestion + '</li>');
  			return false;
 
  	});

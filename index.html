@@ -26,7 +26,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Alison Weiss</a>
+		      <a class="navbar-brand" href="#">alison weiss</a>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,8 +37,7 @@
 		          <ul class="dropdown-menu">
 		            <li><a href="#toAbout">About</a></li>
 		            <li><a href="#toTravel">Travel</a></li>
-		            <li><a href="#">Portfolio</a></li>
-		            <li><a href="#">Top Restaurants</a></li>
+		            <li><a href="#toMusic">Music</a></li>
 		            <li role="separator" class="divider"></li>
 		            <li><a href="#">Contact</a></li>
 		          </ul>
@@ -54,14 +53,14 @@
 					<div class="thumbnail text-center">
 						<img src="philly.jpg" alt="Philadelphia" id="phillyPic">
 						<div class="caption" id='welcome'>
-							<p>-welcome-</p>
+							<p>welcome</p>
 						</div>
 					</div>
 				</div>
 			</div> 
 		</div> 
 
-		<div class="container-fluid content icon-container">
+		<div class="container-fluid content">
 			<div class="row">
 				<div class="col">
 					<h1 id="toAbout">about</h1>
@@ -103,29 +102,74 @@
 			</div>
 			<br>
 			<br>
+		</div>
+
+		<div class="container-fluid" id="tr">
 			<div class="row">
-				<div class="col tr">
+				<div class="col-md-6">
 					<h1 id="toTravel">travel</h1>
-					<p class="places">where I've been:</p>
+					<p class="places listTitle">where I've been:</p>
 					<ul class="places">
-						<li></li>
+						<li>Bar Harbor, ME</li>
+						<li>Nashville, TN</li>
+						<li>Trinidad + Tobago</li>
+						<li>San Francisco, CA</li>
+						<li>San Diego, CA</li>
 					</ul>
+				</div>
+				<div class="col-md-6">
+					<p class="places listTitle">where I want to go:</p>
+					<ul class="places" id="pl">
+						<li>Copenhagen, Denmark</li>
+						<li>Rome, Italy</li>
+						<li>Barcelona, Spain</li>
+					</ul>
+					<form class="form-inline" id="suggestedPlaces">
+  					<ul>
+  						<label for="inlineFormInputName2">suggestions:</label>
+  					<input type="text" class="form-control mb-2 mr-sm-2" id="suggestion" placeholder="where should I go next?">
+						<button type="submit" class="btn btn-default" id="add"><span class="glyphicon glyphicon-ok"></span></button>
+  					</ul>
+					</form>									
 				</div>
 			</div>
 		</div>
-
-		<nav class="navbar navbar-bottom">
-			<div class="container-fluid">
-		  	<div class="navbar-header">
-		    	<a href="#" class="navbar-brand">AMW</a>
-		    </div>
-          <ul class="nav navbar-nav">
-              <li><a href="#" class="bottomLink">LinkedIn</a></li>
-              <li><a href="http://c20g.com/" target="_blank" class="bottomLink">c20g.com</a></li>
-          </ul>
-		    </div>
-		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<h1 id="toMusic">music</h1>
+				</div>
+				<div row="row" class="spotify">
+					<div class="col-md-4">
+						<iframe src="https://open.spotify.com/embed/user/sonymusicnl/playlist/7yhMkuwajPWTpbEfc7y6oJ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					</div>
+					<div class="col-md-4">
+						<iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZEVXcIhziqvXK0at" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					</div>
+					<div class="col-md-4">
+						<iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DX0s5kDXi1oC5" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
   	<footer>
+			<div class="container-fluid">
+				<nav class="navbar bottom">
+			  	<div class="navbar-header">
+			    	<a href="#" class="navbar-brand">AMW</a>
+			    </div>
+		        <ul class="nav navbar-nav">
+		            <li><a href="http://linkedin.com/in/alison-weiss-716a10b1" target="_blank" class="bottomLink">LinkedIn</a></li>
+		            <li><a href="http://c20g.com/" target="_blank" class="bottomLink">c20g.com</a></li>
+		        </ul>
+				</nav>
+	    </div>
   	</footer>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -133,5 +177,6 @@
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="./jquery.js"></script>
+
   </body>
 </html>
