@@ -1,12 +1,5 @@
-/*body, html {
-	height : 100%;
-	margin : 0% 0% 0% 0%;
-	border : none;
-}*/
-
 body {
 	background-color : #f3f1ef;
-	padding-top : 15%;
 }
 
 #pic {
@@ -65,7 +58,7 @@ body {
 	border : none;
 }
 
-.thumbnail .text-center{
+.thumbnail .text-center {
 	margin : 0% 0% 0% 0%;
 	padding : 0% 0% 0% 0%;
 }
